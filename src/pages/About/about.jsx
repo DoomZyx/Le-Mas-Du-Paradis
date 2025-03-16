@@ -2,6 +2,7 @@ import Nav from "../../components/nav/nav";
 import Header from "../../components/Header-A/header";
 import Story from "../../components/Story/story";
 import Serenity from "../../components/Serenity/serinity";
+import Renovation from "../../components/Renovation /renovation";
 import "./_about.scss";
 
 function About() {
@@ -12,6 +13,7 @@ function About() {
       <main>
         <Story />
         <Serenity />
+        <Renovation />
       </main>
     </>
   );
