@@ -1,16 +1,17 @@
 .layout-loc {
  display: flex;
  flex-direction: row;
+ justify-content: space-around;
  padding: 2em;
- margin-top: 0em;
+ margin-top: 3em;
+ margin-bottom: 3em;
  color: #000000;
  .picture-layout img {
-  width: auto;
+  width: 500px;
   height: 520px;
  }
  .text-loc {
   width: 50%;
-  padding: 1em;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

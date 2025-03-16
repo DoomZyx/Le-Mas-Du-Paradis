@@ -1,0 +1,33 @@
+[
+ {
+  "capacites": "Capacités : 4 à 5 personnes",
+  "title": "Les atouts de cette propriété complétement rénovée",
+  "atouts": [
+  "Piscine privative : 10m x 4m, entièrement clôturée avec des murs en pierres",
+  "Dépendances charmantes et espace extérieur soigné pour se détendre",
+  "Accés direct à des randonnées au départ du gîte",
+  "Une salle de sport aménagé sous une vôute en pierres, avec un tapis de course"
+  ]
+ },
+ {
+  "title": "DESCRIPTION",
+  "mainroom": "Grande pièce principale (39m²)",
+  "titleKitchen": "Cuisine équipée flambant neuve avec : ",
+  "kitchen": [
+   "Réfrégirateur / Congélateur ",
+   "Plaque induction, four, micro-onde, grille-pain",
+   "Machine à café, bouilloire éléctrique, ustensiles de cuisine ",
+   "Mobilier et coin repas extérieur + barbecue"
+  ],
+  "livingroom": "Salon convivial :",
+  "sofa": "Canapé d’angle convertible",
+  "bathroom": "  Salle de bain moderne : ",
+  "equipments": "Douche, WC, lavabo, rangements",
+  "mezzanineT": "MEZZANINE",
+  "mezzanine": "Grand lit (160 x 200cm), idéal pour des nuits reposantes",
+  "laundryroom": "Buanderie",
+  "laundry": "Machine à laver + étendoirs",
+  "terrace": "Terrasse :",
+  "equipmentsT": "Mobilier d’extérieur, coin repas et barbecue pour profiter des beaux jours"
+ }
+]
