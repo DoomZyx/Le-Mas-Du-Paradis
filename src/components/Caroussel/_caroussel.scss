@@ -1,0 +1,36 @@
+/* Style général du carrousel */
+.swiper {
+  width: 80%;
+  height: 500px;
+  margin: auto;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.swiper-pagination-bullet {
+  background: #ffffff;
+  width: 14px;
+  height: 14px;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  background: #489744;
+  opacity: 1;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #ffffff !important;
+  font-size: 20px;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  color: #489744 !important;
+}

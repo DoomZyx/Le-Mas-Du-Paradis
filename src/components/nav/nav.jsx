@@ -6,16 +6,16 @@ function Nav() {
     <nav id="nav">
       <div className="layout-nav">
         <Link to="/">
-          <p>ACCUEIL</p>
+          <h4>ACCUEIL</h4>
         </Link>
         <Link to="Location">
-          <p>LOCATION</p>
+          <h4>LOCATION</h4>
         </Link>
         <Link to="about">
-          <p>A PROPOS</p>
+          <h4>A PROPOS</h4>
         </Link>
         <Link to="contact">
-          <p>CONTACT</p>
+          <h4>CONTACT</h4>
         </Link>
       </div>
     </nav>

@@ -3,6 +3,8 @@ import HeaderL from "../../components/Header-L/header-L";
 import Localisation from "../../components/Localisation/localisation";
 import Atouts from "../../components/Atouts/atouts";
 import Description from "../../components/Description/description";
+import Carousel from "../../components/Caroussel/caroussel";
+import Footer from "../../components/footer/footer";
 
 import "./_location.scss";
 
@@ -22,7 +24,9 @@ function Location() {
           <Atouts />
           <Description />
         </div>
+        <Carousel />
       </main>
+      <Footer />
     </>
   );
 }
