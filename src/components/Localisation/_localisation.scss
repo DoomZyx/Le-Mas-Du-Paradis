@@ -1,0 +1,33 @@
+.layout-loc {
+ display: flex;
+ flex-direction: row;
+ padding: 2em;
+ margin-top: 0em;
+ color: #000000;
+ .picture-layout img {
+  width: auto;
+  height: 520px;
+ }
+ .text-loc {
+  width: 50%;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 1.3em;
+  h2 {
+   font-weight: 400;
+   margin-bottom: 1em;
+  }
+  .xt1 {
+   margin-top: 0.5em;
+   margin-bottom: 2.5em;
+  }
+  .xt2,
+  .xt3 {
+   position: relative;
+   right: 20px;
+  }
+ }
+}

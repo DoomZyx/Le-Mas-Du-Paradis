@@ -1,0 +1,60 @@
+footer {
+ border-top: 2px solid black;
+ padding: 1em;
+ background-color: #489744;
+ position: relative;
+ height: 220px;
+ h3 {
+  font-size: 1.8em;
+  margin-bottom: 1.6em;
+ }
+ .layout-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+ }
+ .footer-content1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  left: 30px;
+  .contact-footer {
+   font-size: 1.4em;
+   margin-bottom: 1em;
+  }
+  p {
+   font-size: 1.2em;
+  }
+ }
+ .footer-content2 {
+  display: flex;
+  flex-direction: 
+  column;
+  font-size: 1.2em;
+  position: relative;
+  top: 29px;
+  gap: 10px;
+ }
+ .reseaux {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  .fb {
+   width: 100px;
+   height: auto;
+   margin-bottom: 5px;
+  }
+  .ins {
+   width: 170px;
+  }
+  .lin {
+   width: 80px;
+   height: auto;
+  }
+ }
+}
