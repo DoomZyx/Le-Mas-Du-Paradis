@@ -3,7 +3,7 @@ import "./_header.scss";
 function Header() {
   return (
     <>
-      <header>
+      <header className="header-home">
         <div className="layout-header">
           <h1 className="front-title">
             VIVEZ L’AUTHENTICITÉ ✨ <br /> <br />
