@@ -5,6 +5,8 @@ import Serenity from "../../components/Serenity/serinity";
 import Renovation from "../../components/Renovation /renovation";
 import Comfort from "../../components/comfort&moderne";
 import Wish from "../../components/Wish/wish";
+import Welcome from "../../components/Welcome /welcome";
+import Footer from "../../components/footer/footer";
 import "./_about.scss";
 
 function About() {
@@ -18,7 +20,9 @@ function About() {
         <Renovation />
         <Comfort />
         <Wish />
+        <Welcome />
       </main>
+      <Footer />
     </>
   );
 }
