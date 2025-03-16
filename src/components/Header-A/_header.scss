@@ -1,11 +1,12 @@
 .header-about {
-  margin-top: 5em;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   h1 {
     position: relative;
+    bottom: 210px;
     right: 11em;
     font-size: 2.2em;
     font-weight: 500;
@@ -14,6 +15,8 @@
   }
 }
 .header-layout {
+  position: relative;
+  bottom: 240px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
