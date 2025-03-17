@@ -5,11 +5,11 @@ function Header() {
     <>
       <header className="header-home">
         <div className="layout-header">
-          <h1 className="front-title">
-            VIVEZ L’AUTHENTICITÉ ✨ <br /> <br />
-            LOUEZ VOTRE HAVRE DE PAIX EN PIERRES
-          </h1>
-          <h2></h2>
+          <div className="front-title">
+            <h1>VIVEZ L’AUTHENTICITÉ</h1>
+            <p>✨</p>
+          </div>
+          <h2>LOUEZ VOTRE HAVRE DE PAIX EN PIERRES</h2>
         </div>
       </header>
     </>

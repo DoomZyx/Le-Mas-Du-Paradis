@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
+
 import "./_footer.scss";
 
-import  Facebook  from "../../images/LF.png"
-import  Instagram  from "../../images/instagram.png"
-import  Linkedin  from "../../images/Linkedin.png"
-
+import Facebook from "../../images/LF.png";
+import Instagram from "../../images/instagram.png";
+import Linkedin from "../../images/Linkedin.png";
 
 function Footer() {
   return (
@@ -17,8 +18,12 @@ function Footer() {
             <p className="phone-number-f">06 82 35 57 55</p>
           </div>
           <div className="footer-content2">
-            <p className="politique-conf">Politique de confidentialité</p>
-            <p className=">mention-légales">Mentions légales</p>
+            <Link to="/politique">
+              <p className="politique-conf">Politique de confidentialité</p>
+            </Link>
+            <Link to="/mention">
+              <p className=">mention-légales">Mentions légales</p>
+            </Link>
           </div>
           <div className="reseaux">
             <img className="fb" src={Facebook} alt="" />

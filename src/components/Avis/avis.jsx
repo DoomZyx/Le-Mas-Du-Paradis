@@ -30,12 +30,6 @@ function Avis() {
             </div>
           ))}
         </div>
-        <a
-          className="see-more"
-          href="https://www.booking.com/hotel/fr/le-mas-du-paradis-bleu.fr.html#tab-reviews"
-        >
-          Voir plus d'avis
-        </a>
       </section>
     </>
   );
