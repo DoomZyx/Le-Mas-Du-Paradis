@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-import Collapse from "../../components/Collapse/collapse";
-import location from "../../data/LocationDetails/location.json";
+import Collapse from "../../Collapse/collapse";
+import location from "../../../data/LocationDetails/location.json";
 function Atouts() {
   const [showStrength, setShowStrength] = useState(false);
 

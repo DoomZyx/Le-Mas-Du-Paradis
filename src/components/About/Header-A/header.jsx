@@ -1,5 +1,5 @@
 import "./_header.scss";
-import gite27 from "../../../public/gite/gite27.jpg";
+import gite27 from "/gite/gite27.jpg";
 
 function Header() {
   return (

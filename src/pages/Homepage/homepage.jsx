@@ -1,9 +1,9 @@
 import "./_homepage.scss";
 
 import Nav from "../../components/nav/nav";
-import Header from "../../components/header-H/header-H";
-import Citation from "../../components/citation/citation";
-import Avis from "../../components/Avis/avis";
+import Header from "../../components/Homepage/header-H/header-H";
+import Citation from "../../components/Homepage/citation/citation";
+import Avis from "../../components/Homepage/Avis/avis";
 import Footer from "../../components/footer/footer";
 
 import nature1 from "../../images/nature1.png";

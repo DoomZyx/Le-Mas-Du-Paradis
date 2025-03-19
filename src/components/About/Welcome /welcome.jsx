@@ -1,6 +1,6 @@
 import "./_welcome.scss";
 
-import nature3 from "../../images/nature3.png";
+import nature3 from "../../../images/nature3.png";
 
 function Welcome() {
   return (

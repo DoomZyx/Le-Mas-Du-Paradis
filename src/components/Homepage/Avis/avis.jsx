@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./_avis.scss";
 
-import commentaires from "../../data/Avis/avis";
+import commentaires from "../../../data/Avis/avis";
 
 function Avis() {
   const [commentairesIndex, setCommentairesIndex] = useState(0);

@@ -8,7 +8,7 @@ import { Pagination, Navigation } from "swiper/modules";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
-import image from "../../data/Caroussel/caroussel";
+import image from "../../../data/Caroussel/caroussel";
 import "./_caroussel.scss";
 
 function Carousel() {

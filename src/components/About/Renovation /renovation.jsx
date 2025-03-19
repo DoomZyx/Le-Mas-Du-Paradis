@@ -1,6 +1,6 @@
 import "./_renovation.scss";
 
-import travaux from "../../images/travaux.png";
+import travaux from "../../../images/travaux.png";
 
 function Renovation() {
   return (

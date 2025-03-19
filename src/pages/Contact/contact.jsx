@@ -1,6 +1,6 @@
 import "./_contact.scss";
 import Nav from "../../components/nav/nav";
-import Form from "../../components/Form/form";
+import Form from "../../components/Contact/Form/form";
 import Footer from "../../components/footer/footer"
 
 import sky from "../../images/sky.jpg"

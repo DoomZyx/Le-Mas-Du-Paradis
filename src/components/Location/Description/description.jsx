@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Collapse from "../../components/Collapse/collapse";
-import locationData from "../../data/LocationDetails/location.json";
+import Collapse from "../../Collapse/collapse";
+import locationData from "../../../data/LocationDetails/location.json";
 
 function Description() {
   const [showDescription, setShowDescription] = useState(false);
