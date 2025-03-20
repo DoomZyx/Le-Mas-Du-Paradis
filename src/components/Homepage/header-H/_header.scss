@@ -43,9 +43,12 @@
 @include mobile {
   .header-home .layout-header {
     width: 100%;
-    height: 300px;
-    padding-top: 3em;
+    height: 40dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     line-height: 1.5;
+    position: relative;
     .front-title {
       position: relative;
       left: 10px;

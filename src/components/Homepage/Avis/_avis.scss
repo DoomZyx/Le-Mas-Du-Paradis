@@ -101,7 +101,7 @@ section {
     align-items: center;
     .avis {
       width: 200px;
-      height: 85vh;
+      height: auto;
       .picture {
         width: 70px;
         height: 70px;
@@ -125,8 +125,9 @@ section {
   }
   .layout-avis {
     flex-wrap: wrap;
-    height: 90vh;
+    height: auto;
     margin: 1rem;
+    padding-bottom: 3em;
     .avis {
       width: 20%;
       height: 350px;

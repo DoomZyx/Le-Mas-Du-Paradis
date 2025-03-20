@@ -21,6 +21,17 @@ function Carousel() {
         className="swiper"
         modules={[Pagination, Navigation]}
         slidesPerView={3}
+        breakpoints={{
+          1025: {
+            slidesPerView: 3, 
+          },
+          768: {
+            slidesPerView: 2, 
+          },
+          0: {
+            slidesPerView: 1, 
+          },
+        }}
         spaceBetween={70}
         navigation
       >

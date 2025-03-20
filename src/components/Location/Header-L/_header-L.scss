@@ -1,3 +1,5 @@
+@use "../../../Utils/responsive" as *;
+
 .header-l {
   position: relative;
   top: 250px;
@@ -17,6 +19,32 @@
     }
     h2 {
       font-size: 3em;
+    }
+  }
+}
+
+@include mobile {
+  .header-l {
+    height: 300px;
+    .layout-header2 {
+      position: relative;
+      bottom: 7em;
+      h1 {
+        font-size: 1.4rem;
+      }
+      h2 {
+        padding-left: 0.5em;
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
+
+@include tablet {
+  .header-l {
+    .layout-header2 {
+      position: relative;
+      top: -3em;
     }
   }
 }

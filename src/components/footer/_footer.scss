@@ -40,29 +40,30 @@ footer {
 }
 
 @include mobile {
-  body footer, .layout-footer {
+  body footer {
     width: 100%;
     margin-top: auto;
     padding: 0;
-    margin: 0;
     height: 100%; 
 
     h3 {
       position: relative;
       left: 0.5em;
      width: 90%;
-      font-size: 1.5em;
+      font-size: 1em;
       margin-bottom: 2em;
     }
 
     .layout-footer {
-      height: 30%;
+      height: 100%;
       position: relative;
       left: 0.5em;
+      padding-bottom: 1em;
       display: flex;
       flex-direction: column;
       width: 90%;
       align-items: flex-start;
+      gap: 0px !important;
     }
 
     .footer-content1 {
@@ -71,23 +72,21 @@ footer {
 
       .contact-footer {
         width: 60%;
-        font-size: 1.3em;
+        font-size: 0.9em;
       }
 
       p {
-        font-size: 1em;
+        font-size: 0.7em;
       }
     }
 
     .footer-content2 {
       display: flex;
       flex-direction: column;
-      font-size: 1em;
-      position: relative;
-      bottom: 4em;
+      font-size: 0.7em;
       gap: 10px;
       .title-mp {
-        font-size: 1rem;
+        font-size: 0.9rem;
         margin-bottom: 1em;
       }
     }

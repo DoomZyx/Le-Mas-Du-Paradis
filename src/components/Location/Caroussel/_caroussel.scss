@@ -1,3 +1,5 @@
+@use "../../../Utils/responsive" as *;
+
 /* Style général du carrousel */
 .swiper {
   width: 80%;
@@ -33,4 +35,36 @@
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
   color: #489744 !important;
+}
+
+@include mobile {
+  .swiper {
+    width: 90%;
+    height: auto;
+    margin-bottom: 2rem;
+    img {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16 / 9; /* Ratio standard */
+      object-fit: cover;
+    }
+  }
+  .swiper-button-prev::after, 
+  .swiper-button-next::after {
+    font-size: 20px; /* Taille de l'icône */
+  }
+}
+
+@include tablet {
+  .swiper {
+    height: 100%;
+    img {
+      height: 80dvh;
+    }
+  }
+
+  .swiper-button-prev::after, 
+  .swiper-button-next::after {
+    font-size: 60px; /* Taille de l'icône */
+  }
 }

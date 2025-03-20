@@ -1,3 +1,5 @@
+@use "../../../Utils/responsive" as *;
+
 .layout-loc {
  display: flex;
  flex-direction: row;
@@ -7,8 +9,9 @@
  margin-bottom: 3em;
  color: #000000;
  .picture-layout img {
-  width: 500px;
-  height: 520px;
+  width: 100%;
+  height: auto /* Remplit sans distorsion */
+ }
  }
  .text-loc {
   width: 50%;
@@ -31,4 +34,67 @@
    right: 20px;
   }
  }
+
+
+@include mobile {
+ .layout-loc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #000000;
+  .picture-layout {
+   display: flex;
+   justify-content: center;
+   img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9; /* Ratio standard */
+    max-width: 800px; /* Empêche qu'elle devienne trop large */
+    max-height: 500px; /* Empêche qu'elle devienne trop haute */
+    object-fit: cover;
+  }
+  }
+  .text-loc {
+   margin-top: 1em;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   font-size: 1em;
+   h2 {
+    font-weight: 400;
+    margin-bottom: 1em;
+   }
+   .xt2,
+   .xt3 {
+    position: relative;
+    right: 20px;
+    margin-top: 1em;
+   }
+  }
+ }
+}
+
+@include tablet {
+ .layout-loc {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  .picture-layout {
+   img {
+   align-items: center;
+   width: 100%;
+   height: 90vh;
+   object-fit: contain;
+   }
+  }
+ }
+ .text-loc {
+  margin-right: 2em;
+   font-size: 1rem;
+  }
+ 
 }
