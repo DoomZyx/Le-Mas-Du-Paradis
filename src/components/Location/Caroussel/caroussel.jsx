@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -14,6 +14,14 @@ import "./_caroussel.scss";
 function Carousel() {
   const [isOpen, setIsOpen] = useState(false);
   const [photoIndex, setPhotoIndex] = useState(0);
+
+  useEffect(() => {
+    const burgerMenu = document.querySelector(".layout-burger");
+    if (burgerMenu) {
+      burgerMenu.style.display = isOpen ? "none" : "flex"; 
+    }
+  }, [isOpen]);
+
 
   return (
     <>

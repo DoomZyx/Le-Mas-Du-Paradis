@@ -10,6 +10,7 @@ function Nav() {
         <button className="burger-menu" onClick={() => setIsOpen(!isOpen)}>
           ☰
         </button>
+        <h1>BIENVENUE AU MAS DU PARADIS BLEU</h1>
       </div>
       <nav id="nav">
         <div className="layout-nav">

@@ -1,6 +1,6 @@
 @use "../../../Utils/responsive" as *;
 
-/* Style général du carrousel */
+
 .swiper {
   width: 80%;
   height: 500px;
@@ -45,13 +45,13 @@
     img {
       width: 100%;
       height: auto;
-      aspect-ratio: 16 / 9; /* Ratio standard */
+      aspect-ratio: 16 / 9;
       object-fit: cover;
     }
   }
   .swiper-button-prev::after, 
   .swiper-button-next::after {
-    font-size: 20px; /* Taille de l'icône */
+    font-size: 20px;
   }
 }
 
@@ -59,12 +59,17 @@
   .swiper {
     height: 100%;
     img {
-      height: 80dvh;
+      height: 40dvh;
     }
   }
 
   .swiper-button-prev::after, 
   .swiper-button-next::after {
-    font-size: 60px; /* Taille de l'icône */
+    font-size: 60px; 
   }
+
+  .swiper-button-prev:active,
+.swiper-button-next:active {
+  color: #489744 !important;
+}
 }
