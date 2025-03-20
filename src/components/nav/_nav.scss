@@ -1,30 +1,175 @@
+@use "../../Utils/responsive" as *;
+
+
+@include mobile {
+
 #nav {
- position: fixed;
- left: 300px;
- top: -60px;
- z-index: 1000; 
+  display: none;
 }
-.layout-nav {
-  width: 850px;
-  height: 35px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+
+
+.layout-burger {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 9vh;
+  width: 100%;
+  z-index: 99999;
   background-color: #489744;
-  gap: 100px;
-  border: 1px solid #000000;
-  border-radius: 50px;
-  padding: 1em;
-  font-size: 1.6em;
+.burger-menu {
+  display: none;
+  font-size: 36px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  font-size: 29px;
+  top: 4px;
+  right: 23px;
+  }
+}
+.burger-menu {
+
 }
 
-.layout-nav {
-  transition: transform 1.5s ease;
-  transform: translateY(0);
- }
- .layout-nav:hover,
- .layout-nav.active {
-  transform: translateY(70px);
- }
 
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  right: 100%;
+  width: 50%;
+  height: 100vh;
+  background-color: #489744;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: right 0.3s ease-in-out;
+}
+
+.mobile-menu.open {
+  right: 0;
+}
+
+.mobile-menu h4 {
+  margin: 20px 0;
+  position: relative;
+  right: -1px;
+}
+
+.mobile-menu h4 {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+}
+
+@include tablet {
+  #nav {
+    display: none;
+  }
+  .layout-burger {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 13vh;
+    width: 100%;
+    z-index: 99999;
+    background-color: #489744;
+  .burger-menu {
+    display: none;
+    font-size: 36px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    font-size: 2.5rem;
+    margin: 10px;
+    right: 39px;
+    bottom: 2px;
+    }
+
+    
+  }
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    right: 100%;
+    width: 20%;
+    height: 100vh;
+    background-color: #489744;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: right 0.3s ease-in-out;
+  }
+  
+  .mobile-menu.open {
+    right: 0;
+  }
+  
+  .mobile-menu h4 {
+    margin: 30px 0;
+  }
+  
+  .mobile-menu h4 {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+}
+
+@include desktop {
+
+#nav {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -60px;
+  z-index: 1000; 
+ }
+ .layout-nav {
+   width: 850px;
+   height: 35px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   background-color: #489744;
+   gap: 100px;
+   border: 1px solid #000000;
+   border-radius: 50px;
+   padding: 1em;
+   font-size: 1.6em;
+ }
+ 
+ .layout-nav {
+   transition: transform 1.5s ease;
+   transform: translateY(0);
+  }
+  .layout-nav:hover,
+  .layout-nav.active {
+   transform: translateY(70px);
+  }
+
+  .burger-menu {
+    display: none;
+    font-size: 36px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+ 
+ .mobile-menu {
+   display: none;
+ }
+}
