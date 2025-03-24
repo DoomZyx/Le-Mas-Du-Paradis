@@ -1,3 +1,5 @@
+@use '../../../Utils/responsive' as *;
+
 .header-about {
   height: 90vh;
   display: flex;
@@ -35,4 +37,37 @@
     width: 40%;
     color: #000000;
   }
+}
+
+@include mobile {
+
+
+.header-about {
+  position: relative;
+  top: 3.8em;
+  height: 100%;
+}
+.header-layout {
+  margin-bottom: -4em;
+  position: relative;
+  top: -7em;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  img {
+    border-radius: 5%;
+    width: 90%;
+    height: 200px;
+    object-fit: cover;
+  }
+  h2 {
+    margin: 1em;
+    position: relative;
+    left: 0;
+    font-weight: 300;
+    font-size: 1em;
+    width: 90%;
+    color: #000000;
+  }
+ }
 }

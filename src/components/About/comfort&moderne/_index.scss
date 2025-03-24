@@ -1,3 +1,5 @@
+@use '../../../Utils/responsive' as *;
+
 .comf-layout {
  padding: 2em;
  display: flex;
@@ -14,5 +16,19 @@
  p {
   font-size: 1.6em;
   line-height: 1.4;
+ }
+}
+
+@include mobile {
+ .comf-layout {
+  height: 100%;
+  h2 {
+   font-size: 1.6em;
+   padding-bottom: 2em;
+  }
+  p {
+   font-size: 1em;
+   line-height: 1.4;
+  }
  }
 }

@@ -10,7 +10,7 @@
  color: #000000;
  .picture-layout img {
   width: 100%;
-  height: auto /* Remplit sans distorsion */
+  height: auto;
  }
  }
  .text-loc {
@@ -50,9 +50,9 @@
    img {
     width: 100%;
     height: auto;
-    aspect-ratio: 16 / 9; /* Ratio standard */
-    max-width: 800px; /* Empêche qu'elle devienne trop large */
-    max-height: 500px; /* Empêche qu'elle devienne trop haute */
+    aspect-ratio: 16 / 9;
+    max-width: 800px; 
+    max-height: 500px;
     object-fit: cover;
   }
   }
@@ -89,21 +89,22 @@
     display: flex;
     justify-content: center;
    img {
-    width: 95%; /* Réduit légèrement la largeur */
+    width: 100%; 
     height: auto;
-    aspect-ratio: 16 / 9; /* Garde un bon ratio */
-    max-width: 600px; /* Limite la largeur pour éviter le flou */
-    max-height: 350px; /* Ajuste la hauteur */
+    aspect-ratio: 16 / 9;
+    max-width: 700px;
+    max-height: 350px; 
     object-fit: cover;
    }
   }
  }
  .text-loc {
   padding: 1em;
-  width: 90%;
-   font-size: 20px;
+  width: 95%;
+   font-size: 1em;
   }
  ul .xt2 {
+  font-size: 1em;
   padding-bottom: 1em;
  }
 }

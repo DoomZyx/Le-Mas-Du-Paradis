@@ -1,3 +1,5 @@
+@use '../../../Utils/responsive' as *;
+
 .background-3 {
   position: relative;
   width: 100%;
@@ -33,5 +35,27 @@
    margin: 2em;
    font-size: 2em;
   }
+}
+
+@include mobile {
+  .background-3 {
+    height: 300px;
+    img {
+      aspect-ratio: 19 / 9;
+    }
+    .wish-layout {
+     h2 {
+      font-size: 1.7em;
+     }
+    }
+    p {
+     position: relative;
+     top: 0;
+     margin: 2em;
+     font-size: 1em;
+     width: 80%;
+    }
+  }
+  
 }
 
