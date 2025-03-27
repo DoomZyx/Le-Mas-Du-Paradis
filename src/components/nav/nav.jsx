@@ -4,6 +4,8 @@ import "./_nav.scss";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
+
+  
   return (
     <>
       <div className="layout-burger">

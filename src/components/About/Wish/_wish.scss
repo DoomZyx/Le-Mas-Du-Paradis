@@ -3,7 +3,7 @@
 .background-3 {
   position: relative;
   width: 100%;
-  height: 83vh;
+  height: 100%;
   display: flex;
   overflow: hidden;
   display: flex;
@@ -17,23 +17,27 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: -1;
+    z-index: 1;
   }
   .wish-layout {
+    z-index: 2;
    h2 {
     font-weight: 500;
     margin: 2em;
-    font-size: 2.5em;
+    font-size: 4em;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
    }
   }
   p {
-   position: relative;
-   top: 90px;
+  position: relative;
+  top: 2em;
    margin: 2em;
-   font-size: 2em;
+   padding-bottom: 5em;
+   font-size: 2.5em;
+   font-weight: 300;
   }
 }
 
@@ -55,7 +59,26 @@
      font-size: 1em;
      width: 80%;
     }
-  }
-  
+  } 
 }
+
+@include tablet {
+  .background-3 {
+    height: 500px;
+    img {
+      aspect-ratio: 19 / 9;
+    }
+    .wish-layout {
+     h2 {
+      font-size: 2.5em;
+     }
+    }
+    p {
+     margin: 3em;
+     font-size: 1.8em;
+     width: 80%;
+    }
+  } 
+}
+
 

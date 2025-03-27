@@ -14,7 +14,7 @@ footer {
   .layout-footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     gap: 50px;
   }
@@ -33,8 +33,7 @@ footer {
   .footer-content2 {
     display: flex;
     flex-direction: column;
-    font-size: 1.2em;
-    margin-top: 3em;
+    font-size: 1.4em;
     gap: 10px;
   }
 }
@@ -50,7 +49,7 @@ footer {
       position: relative;
       left: 0.5em;
      width: 90%;
-      font-size: 1em;
+      font-size: 1.3em;
       margin-bottom: 2em;
     }
 
@@ -63,7 +62,7 @@ footer {
       flex-direction: column;
       width: 90%;
       align-items: flex-start;
-      gap: 0px !important;
+      gap: 50px !important;
     }
 
     .footer-content1 {
@@ -72,18 +71,18 @@ footer {
 
       .contact-footer {
         width: 60%;
-        font-size: 0.9em;
+        font-size: 1.1em;
       }
 
       p {
-        font-size: 0.7em;
+        font-size: 1em;
       }
     }
 
     .footer-content2 {
       display: flex;
       flex-direction: column;
-      font-size: 0.7em;
+      font-size: 1em;
       gap: 10px;
       .title-mp {
         font-size: 0.9rem;

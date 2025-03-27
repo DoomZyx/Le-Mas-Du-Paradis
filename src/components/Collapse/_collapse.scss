@@ -10,6 +10,7 @@
  border-radius: 50px;
  width: 80%;
  margin-left: 1em;
+ margin-bottom: 2rem;
  overflow: hidden;
  position: relative;
  border: 3px solid black;
@@ -75,7 +76,7 @@
 }
 
 @include mobile {
-  .layout-collapse {
+  main .layout-collapse {
     margin-top: -2em;
     margin-bottom: -3em;
   }
@@ -146,7 +147,7 @@
 @include tablet {
   .layout-collapse {
     margin-top: -2em;
-    margin-bottom: -3em;
+    margin-bottom: -2em;
   }
   .collapse {
     width: 80%;
@@ -157,28 +158,28 @@
       padding: 20px;
       width: 100%;
       height: 2vh;
-      font-size: 1.2em;
+      font-size: 1.4em;
       border-radius: 10px 10px 0px 0px;
     }
     .title {
-     font-size: 1em;
+     font-size: 1.5em;
     }
     .mainroom-title {
-     font-size: 1em;
+     font-size: 1.5em;
      font-weight: 800;
     }
      h3 {
-       font-size: 1em;
+       font-size: 1.2em;
      }
      h4 {
-       font-size: 1em;
+       font-size: 1.2em;
      }
      ul {
       position: relative;
       right: 28px;
      }
      p,li {
-       font-size: 1em;
+       font-size: 1.2em;
      }
    }
    

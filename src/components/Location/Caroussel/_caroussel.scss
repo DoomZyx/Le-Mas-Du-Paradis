@@ -2,9 +2,10 @@
 
 
 .swiper {
+  background-color: #ffffff;
   width: 80%;
   height: 500px;
-  margin-bottom: 4em;
+  padding-bottom: 4em;
 }
 
 .swiper-slide img {
@@ -41,7 +42,7 @@
   .swiper {
     width: 90%;
     height: auto;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
     img {
       width: 100%;
       height: auto;
@@ -51,7 +52,8 @@
   }
   .swiper-button-prev::after, 
   .swiper-button-next::after {
-    font-size: 20px;
+    font-size: 40px;
+    transform: translateY(-70%);
   }
 }
 
@@ -65,7 +67,8 @@
 
   .swiper-button-prev::after, 
   .swiper-button-next::after {
-    font-size: 60px; 
+    font-size: 4rem;
+    transform: translateY(-50%); 
   }
 
   .swiper-button-prev:active,

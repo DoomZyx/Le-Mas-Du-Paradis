@@ -1,7 +1,7 @@
 @use '../../../Utils/responsive' as *;
 
 .header-about {
-  height: 90vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,6 +51,7 @@
   margin-bottom: -4em;
   position: relative;
   top: -7em;
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -70,4 +71,24 @@
     color: #000000;
   }
  }
+}
+
+@include tablet {
+  .header-layout {
+    display: flex;
+    flex-direction: column;
+    img {
+      width: 90%;
+      height: 400px;
+    }
+    h2 {
+      margin-top: 2em;
+      position: relative;
+      left: 0;
+      width: 90%;
+      display: flex;
+      font-size: 1.4rem;
+      
+    }
+  }
 }

@@ -26,7 +26,7 @@ function Localisation() {
             <li className="xt2">
               Situé dans un charmant village calme et authentique, au sud de
               l’Ardèche proche du Gard.
-            </li>
+            </li> <br />
             <li className="xt3">
               Entre Chassezac et la Cèze, au coeur de paysages mêlant oliviers,
               vignes, chênes, truffiers, lavande, et garrigue.
