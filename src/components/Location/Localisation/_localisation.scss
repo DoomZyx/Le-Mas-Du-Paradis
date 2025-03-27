@@ -111,3 +111,19 @@
   padding-bottom: 1em;
  }
 }
+
+@include largeDesktop {
+  .layout-loc {
+   padding: 2em;
+   margin-top: 10em;
+   padding-bottom: 7rem;
+   color: #000000;
+   .picture-layout img {
+    width: 150%;
+    height: auto;
+   }
+   }
+   .text-loc {
+    font-size: 2.4em;
+   }
+}

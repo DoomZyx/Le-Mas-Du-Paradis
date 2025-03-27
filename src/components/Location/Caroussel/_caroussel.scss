@@ -74,5 +74,32 @@
   .swiper-button-prev:active,
 .swiper-button-next:active {
   color: #489744 !important;
+ }
 }
+
+@include largeDesktop {
+  .swiper {
+    background-color: #ffffff;
+    width: 80%;
+    height: 1000px;
+    padding-bottom: 4em;
+    
+    .swiper-slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+  }
+  
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    color: #ffffff !important;
+    font-size: 5rem;
+  }
+  
+  .swiper-button-prev:active,
+.swiper-button-next:active {
+  color: #489744 !important;
+ }
+  }
 }

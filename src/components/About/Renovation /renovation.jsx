@@ -8,7 +8,7 @@ function Renovation() {
       <div className="reno-layout">
         <img src={travaux} alt="" />
         <div className="text-layout-a">
-      <h2 className="reno-title">Une rénovation minutieuse 🔨</h2>
+      <h2 className="reno-title">UNE RENOVATION MINUTIEUSE 🔨</h2>
           <p>Tout a été repensé, refait et moderniser ✨</p>
           <ul>
             <li>La toiture à été entiérement refaite à neuf</li>

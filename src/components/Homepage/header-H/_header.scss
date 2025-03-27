@@ -2,7 +2,6 @@
 
 
   .header-home {
-
     .layout-header {
       height: 900px;
       z-index: 2;
@@ -84,3 +83,27 @@
   }
 }
 
+@include largeDesktop {
+  .header-home {
+  .layout-header {
+    height: 1700px;
+    z-index: 2;
+  }
+  .front-title {
+    position: relative;
+    left: 30px;
+    gap: 60px;
+    h1, h2 {
+      font-size: 6vw;
+      position: relative;
+      left: 40px;
+    }
+    p {
+      font-size: 5vw;
+    }
+  }
+  h2 {
+    font-size: 4.4vw;
+  }
+}
+}

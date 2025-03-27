@@ -4,7 +4,7 @@ function Serenity() {
   return (
     <>
       <div className="layout-serenity">
-        <h2>🌸 Un cadre de de sérénité absolue </h2>
+        <h2>🌸 UN CADRE DE SERENITE ABSOLUE </h2>
         <p>
           Ce mas est bien plus qu’un simple lieu de séjour : c’est le fruit d’un
           rêve réalisé avec passion ❤️

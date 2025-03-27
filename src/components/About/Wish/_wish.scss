@@ -81,4 +81,25 @@
   } 
 }
 
+@include largeDesktop {
+  .background-3 {
+    .wish-layout {
+      z-index: 2;
+     h2 {
+      font-weight: 500;
+      margin-top: 1em;
+      font-size: 8em;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+     }
+    }
+    p {
+     padding-bottom: 2em;
+     font-size: 5em;
+    }
+  }
+  
+}
 

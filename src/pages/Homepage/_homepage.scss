@@ -42,3 +42,26 @@ main {
     height: 600px;
   }
 }
+
+@include largeDesktop {
+  .background-1 {
+    width: 100%;
+    height: 1800px;
+  }
+  .background-1 img {
+    position: fixed;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1800px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+  }
+  
+  main {
+    flex-grow: 1;
+    width: 100%;
+    height: auto;
+  }
+}

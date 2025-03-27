@@ -4,7 +4,7 @@ function Comfort() {
   return (
     <>
       <div className="comf-layout">
-        <h2>Confort et modernité 🛋️</h2>
+        <h2>CONFORT ET MODERNITE 🛋️</h2>
         <p>
           Nous avons séléctionné chaque meuble et chaque élément de décoration
           avec soin 🪑

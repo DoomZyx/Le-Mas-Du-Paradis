@@ -35,3 +35,13 @@
   }
 }
 
+@include largeDesktop {
+  .layout-citation {
+    height: 60vh;
+    h3 {
+      font-family: "Rochester", sans-serif !important;
+      font-size: 9em;
+    }
+  }
+}
+

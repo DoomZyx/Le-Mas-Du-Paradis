@@ -21,6 +21,11 @@ function Avis() {
                 <p
                   className={`avis-text ${
                     avis.commentaire === "Exceptionnel" ? "big-text" : ""
+                  } ${
+                    avis.commentaire ===
+                    "Très bon accueil calme et tranquillité parfait propriétaire sympathique et agréable"
+                      ? "thirstComment"
+                      : ""
                   }`}
                 >
                   "{avis.commentaire}"

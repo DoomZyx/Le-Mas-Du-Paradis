@@ -59,3 +59,22 @@
     }
   }
 }
+
+@include largeDesktop {
+  .layout-serenity {
+    height: 100%;
+    h2 {
+     font-size: 4em;
+     margin-top: 1em;
+     padding-bottom: 2em;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+    }
+    p {
+     font-size: 3.1em;
+     font-weight: 300;
+     margin-bottom: 2em;
+    }
+  }
+}

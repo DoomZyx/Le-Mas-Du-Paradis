@@ -185,3 +185,54 @@
   }
 }
 
+@include largeDesktop {
+  #nav {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -80px;
+    z-index: 9999; 
+   }
+  .layout-nav {
+    width: 110%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #489744;
+    gap: 100px;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    padding: 1em;
+    font-size: 2.5em;
+  }
+  
+  .layout-nav {
+    transition: transform 1.5s ease;
+    transform: translateY(0);
+   }
+   .layout-nav:hover,
+   .layout-nav.active {
+    transform: translateY(70px);
+   }
+ 
+   .layout-burger h1 {
+     display: none;
+   }
+ 
+   .burger-menu {
+     display: none;
+     font-size: 36px;
+     background: none;
+     border: none;
+     color: white;
+     cursor: pointer;
+   }
+   
+  
+  .mobile-menu {
+    display: none;
+  }
+}
+
