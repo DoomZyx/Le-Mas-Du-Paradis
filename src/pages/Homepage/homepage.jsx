@@ -6,7 +6,7 @@ import Citation from "../../components/Homepage/citation/citation";
 import Avis from "../../components/Homepage/Avis/avis";
 import Footer from "../../components/footer/footer";
 
-import nature1 from "../../images/nature1.png";
+import nature1 from "../../images/nature1.webp";
 
 function Homepage() {
   return (

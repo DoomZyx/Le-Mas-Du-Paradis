@@ -1,6 +1,6 @@
 import "./_wish.scss";
 
-import nature4 from "../../../images/nature4.png";
+import nature4 from "../../../images/nature4.webp";
 
 function Wish() {
   return (

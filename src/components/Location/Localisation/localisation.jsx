@@ -1,5 +1,5 @@
 import "./_localisation.scss";
-import house from "../../../images/house.png";
+import house from "../../../images/house.webp";
 
 function Localisation() {
   return (

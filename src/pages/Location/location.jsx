@@ -8,7 +8,7 @@ import Footer from "../../components/footer/footer";
 
 import "./_location.scss";
 
-import nature2 from "../../images/nature2.png";
+import nature2 from "../../images/nature2.webp";
 
 function Location() {
   return (

@@ -3,7 +3,7 @@ import Nav from "../../components/nav/nav";
 import Form from "../../components/Contact/Form/form";
 import Footer from "../../components/footer/footer"
 
-import sky from "../../images/sky.jpg"
+import sky from "../../images/sky.webp"
 
 function Contact() {
   return (
