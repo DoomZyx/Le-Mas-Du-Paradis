@@ -33,8 +33,14 @@ footer {
   .footer-content2 {
     display: flex;
     flex-direction: column;
-    font-size: 1.4em;
     gap: 10px;
+    .title-mp {
+      margin-bottom: 1em;
+      font-size: 1.4rem;
+    }
+    p {
+      font-size: 1.2rem;
+    }
   }
 }
 
@@ -52,7 +58,7 @@ footer {
       font-size: 1.3em;
       margin-bottom: 2em;
     }
-
+ 
     .layout-footer {
       height: 100%;
       position: relative;
@@ -95,11 +101,13 @@ footer {
 @include tablet {
   footer {
     height: 100%;
+  .layout-footer {
+    .title-mp {
+      font-size: 1.1rem;
+    }
   }
-  .footer-content2 {
-    position: relative;
-    bottom: 30px;
   }
+  
 }
 
 @include largeDesktop {
