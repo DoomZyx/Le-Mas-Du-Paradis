@@ -1,22 +1,18 @@
 @use '../../../Utils/responsive' as *;
 
 .header-about {
+  z-index: -1;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   h1 {
-    position: relative;
-    bottom: 210px;
-    right: 11em;
-    font-size: 2.2em;
-    font-weight: 500;
-    color: #000000;
-    margin-bottom: 2em;
+    display: none;
   }
 }
 .header-layout {
+  z-index: 1;
   position: relative;
   bottom: 20px;
   display: flex;
@@ -41,20 +37,14 @@
 
 @include mobile {
 
-
-.header-about {
-  position: relative;
-  top: 3.8em;
-  height: 100%;
-}
 .header-layout {
-  margin-bottom: -4em;
-  position: relative;
-  top: -7em;
+  margin-top: clamp(80px,5vw,110px);
+  z-index: 5;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
+
   img {
     border-radius: 5%;
     width: 90%;
@@ -75,6 +65,7 @@
 
 @include tablet {
   .header-layout {
+    margin-top: clamp(115px,9vw,160px);
     display: flex;
     flex-direction: column;
     img {

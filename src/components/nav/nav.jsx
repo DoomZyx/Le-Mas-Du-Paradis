@@ -12,7 +12,6 @@ function Nav() {
         <button className="burger-menu" onClick={() => setIsOpen(!isOpen)}>
           ☰
         </button>
-        <h1>BIENVENUE AU MAS DU PARADIS BLEU</h1>
       </div>
       <nav id="nav">
         <div className="layout-nav">
@@ -44,6 +43,15 @@ function Nav() {
         <Link to="/contact">
           <h4>CONTACT</h4>
         </Link>
+        <div className="layout-sublink">
+          <div className="line"></div>
+          <Link to="/politique">
+            <h3>Politique de confidentialité</h3>
+          </Link>
+          <Link to="/mention">
+            <h3>Mentions légales</h3>
+          </Link>
+        </div>
       </div>
     </>
   );
