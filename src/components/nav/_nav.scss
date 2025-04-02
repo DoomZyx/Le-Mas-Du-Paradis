@@ -44,6 +44,16 @@
     cursor: pointer;
   }
   
+  .layout-language {
+    margin: 1em;
+    button {
+      border: none;
+      background: none;
+    }
+    button:hover {
+      transform: scale(1.1);
+    }
+  }
  
  .mobile-menu {
    display: none;
@@ -63,7 +73,7 @@
 .layout-burger {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   position: fixed;
   left: 0;
@@ -147,7 +157,7 @@
   .layout-burger {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     border-bottom: 3px solid black;
     position: fixed;

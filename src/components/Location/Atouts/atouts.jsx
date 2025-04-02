@@ -17,7 +17,7 @@ function Atouts() {
       title={strength.titlea[i18n.language]}
       content={
         <>
-          <p>{strength.capacities[i18n.language]}</p>
+          <h3>{strength.capacities[i18n.language]}</h3>
           <h3 className="title">{strength.title[i18n.language]}</h3>
           <ul>
             {strength.atouts.map((atout, index) => (

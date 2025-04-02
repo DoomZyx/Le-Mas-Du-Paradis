@@ -2,7 +2,7 @@
 
 .layout-serenity {
   margin-bottom: 2em;
-  padding: 1em;
+  padding: 0em 0em 4em 0;
   color: #ffffff;
   height: 100%;
   background-color: #489744;
@@ -19,7 +19,7 @@
   p {
    font-size: 1.6em;
    font-weight: 300;
-   margin-bottom: 2em;
+   margin-bottom: 0.5em;
   }
 }
 
@@ -31,11 +31,12 @@
     display: flex;
     flex-direction: column;
     h2 {
-     font-size: 1.5rem;
-     margin-top: 1em;
-     padding-bottom: 2em;
+      font-size: clamp(1.4em,1vw,2.5em);
+      margin-top: 1em;
+      padding-bottom: 2em;
     }
     p {
+      margin: 0.3em;
      font-size: 1em;
     }
   }

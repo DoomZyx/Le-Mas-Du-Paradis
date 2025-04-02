@@ -1,8 +1,9 @@
 @use '../../../Utils/responsive' as *;
 
 .layout-story {
-  padding: 2em;
+  padding: 1em;
   margin-top: 3em;
+  padding-bottom: 3em;
   background-color: #eaeaea;
   color: #000000;
   height: auto;
@@ -18,9 +19,7 @@
   h3 {
     font-weight: 300;
     font-size: 1.6em;
-    line-height: 1.4;
-    margin-bottom: 1em;
-  }
+    line-height: 1.5;  }
 }
 
 @include mobile {
@@ -34,8 +33,7 @@
       font-weight: 300;
     }
     h3 {
-      padding-bottom: 1em;
-      font-size: 01em;
+      font-size: 1em;
     }
   }
 }

@@ -21,6 +21,7 @@
   }
   .wish-layout {
     z-index: 2;
+    padding-bottom: 8em;
    h2 {
     font-weight: 500;
     margin: 2em;
@@ -32,10 +33,7 @@
    }
   }
   p {
-  position: relative;
-  top: 2em;
    margin: 2em;
-   padding-bottom: 5em;
    font-size: 2.5em;
    font-weight: 300;
   }
@@ -43,7 +41,7 @@
 
 @include mobile {
   .background-3 {
-    height: 300px;
+    height: 350px;
     img {
       aspect-ratio: 19 / 9;
     }

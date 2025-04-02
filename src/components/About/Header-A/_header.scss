@@ -48,50 +48,64 @@
 }
 
 @include mobile {
+.header-about {
+  padding: 0;
+  .header-layout {
+    margin-top: clamp(10px,2vw,50px);
+    z-index: 5;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-.header-layout {
-  margin-top: clamp(80px,5vw,110px);
-  z-index: 5;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-
-  img {
-    border-radius: 5%;
+    img {
+      border-radius: 5%;
     width: 90%;
     height: 200px;
     object-fit: cover;
   }
+  .header-text {
+     display: flex;
+     flex-direction: column;
+     padding-top: 2em;
+   }
   h2 {
-    margin: 1em;
+    
     position: relative;
     left: 0;
     font-weight: 300;
     font-size: 1em;
-    width: 90%;
+    width: 95%;
     color: #000000;
+   }
   }
  }
 }
 
 @include tablet {
+  .header-about {
   .header-layout {
-    margin-top: clamp(115px,9vw,160px);
+    margin-top: clamp(15px,2vw,50px);
     display: flex;
     flex-direction: column;
     img {
       width: 90%;
       height: 400px;
     }
-    h2 {
-      margin-top: 2em;
-      position: relative;
-      left: 0;
-      width: 90%;
+    .header-text {
       display: flex;
-      font-size: 1.4rem;
-      
+      flex-direction: column;
+      padding-top: 2em;
+    }
+   h2 {
+     position: relative;
+     left: 0;
+     font-weight: 300;
+     font-size: 1.2em;
+     width: 95%;
+     color: #000000;
+      }
     }
   }
 }

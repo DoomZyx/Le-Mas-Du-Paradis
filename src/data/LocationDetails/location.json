@@ -9,8 +9,8 @@
       "en": "Capacity: 4 to 5 people"
     },
     "title": {
-      "fr": "Les atouts de cette propriété complétement rénovée",
-      "en": "The advantages of this completely renovated property"
+      "fr": "Les atouts de cette propriété complétement rénovée :",
+      "en": "The advantages of this completely renovated property :"
     },
     "atouts": [
       {
@@ -42,7 +42,7 @@
     },
     "titleKitchen": {
       "fr": "Cuisine équipée flambant neuve avec : ",
-      "en": "Brand new fitted kitchen with:"
+      "en": "Brand new fitted kitchen with :"
     },
     "kitchen": [
       {

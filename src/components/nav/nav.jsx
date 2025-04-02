@@ -16,7 +16,7 @@ function Nav() {
         <button className="burger-menu" onClick={() => setIsOpen(!isOpen)}>
           ☰
         </button>
-        <div className="layout-langage">
+        <div className="layout-language">
           <button className="french-butt" onClick={() => i18n.changeLanguage("fr")}>FR</button>
           <button className="english-butt" onClick={() => i18n.changeLanguage("en")}>EN</button>
         </div>
