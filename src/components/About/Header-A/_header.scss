@@ -1,6 +1,8 @@
 @use '../../../Utils/responsive' as *;
 
 .header-about {
+  margin-top: 5rem;
+  padding: 2em;
   z-index: -1;
   height: 100%;
   display: flex;
@@ -17,11 +19,21 @@
   bottom: 20px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  .header-text {    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: left;
+    h2 {
+    width: 80%;
+
+    }
+  }
   img {
     border-radius: 5%;
-    width: 45%;
+    width: 60%;
     height: 500px;
     object-fit: cover;
   }

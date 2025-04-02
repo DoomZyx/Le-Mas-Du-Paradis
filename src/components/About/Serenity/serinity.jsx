@@ -1,24 +1,30 @@
 import "./_serenity.scss";
 
+import { useTranslation } from "react-i18next";
+
 function Serenity() {
+  const { t } = useTranslation();
   return (
     <>
       <div className="layout-serenity">
-        <h2>🌸 UN CADRE DE SERENITE ABSOLUE </h2>
+        <h2>{t("serenitytitle")}</h2>
         <p>
-          Ce mas est bien plus qu’un simple lieu de séjour : c’est le fruit d’un
-          rêve réalisé avec passion ❤️
+          {t("st1")}
           <br /> <br />
-          Situé dans le village paisible de Saint André de Cruzières et entouré
-          de nature
-          <br /> <br />
-          Il offre un climat de sérénité incomparable
-          <br /> <br />
-          Ici le temps semble s’arrêter 🌅
-          <br /> <br />
-          Les seules bruits que vous entendez sont ceux des oiseaux qui chantent
-          et de la nature qui vous entoure
         </p>
+        <p>
+          {t("st2")}
+          <br /> <br />
+        </p>
+        <p>
+          {t("st3")}
+          <br /> <br />
+        </p>
+        <p>
+          {t("st4")}
+          <br /> <br />
+        </p>
+        <p>{t("st5")}</p>
       </div>
     </>
   );

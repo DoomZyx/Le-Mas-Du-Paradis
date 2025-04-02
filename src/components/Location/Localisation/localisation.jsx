@@ -1,7 +1,10 @@
 import "./_localisation.scss";
 import house from "../../../images/house.webp";
 
+import { useTranslation } from "react-i18next";
+
 function Localisation() {
+  const { t } = useTranslation();
   return (
     <>
       <div className="layout-loc">
@@ -10,26 +13,19 @@ function Localisation() {
         </div>
         <div className="text-loc">
           <p className="xt1">
-            Le cadre agricole, entre vignes et forêt méditerranéenne, offre une
-            tranquillité unique. Ici, le temps semble suspendu, laissant place
-            au chant des cigales et au parfum enivrant de la lavande. C’est un
-            véritable havre de paix, idéal pour se ressourcer loin du tumulte
-            urbain. 🌿 <br /> <br /> Parfait pour des vacances au calme, avec tout le confort
-            moderne. Profitez d’un séjour alliant nature et sérénité, tout en
-            bénéficiant des équipements essentiels pour un confort optimal. Que
-            vous souhaitiez vous détendre au bord d’une terrasse ombragée,
-            partir en randonnée dans les paysages environnants, ou simplement
-            savourer un bon vin local, ce lieu est une invitation au bien-être.
+            {t("xt1")} <br /> <br />
           </p>
-          <h2>LOCALISATION</h2>
+          <p className="xt1-2">
+            {t("xt1-2")}
+          </p>
+          <h2> {t("localisation")} </h2>
           <ul>
             <li className="xt2">
-              Situé dans un charmant village calme et authentique, au sud de
-              l’Ardèche proche du Gard.
-            </li> <br />
+              {t("xt2")}
+            </li>{" "}
+            <br />
             <li className="xt3">
-              Entre Chassezac et la Cèze, au coeur de paysages mêlant oliviers,
-              vignes, chênes, truffiers, lavande, et garrigue.
+              {t("xt3")}
             </li>
           </ul>
         </div>

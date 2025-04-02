@@ -1,33 +1,106 @@
 [
- {
-  "capacites": "Capacités : 4 à 5 personnes",
-  "title": "Les atouts de cette propriété complétement rénovée",
-  "atouts": [
-  "Piscine privative : 10m x 4m, entièrement clôturée avec des murs en pierres",
-  "Dépendances charmantes et espace extérieur soigné pour se détendre",
-  "Accés direct à des randonnées au départ du gîte",
-  "Une salle de sport aménagé sous une vôute en pierres, avec un tapis de course"
-  ]
- },
- {
-  "title": "DESCRIPTION",
-  "mainroom": "Grande pièce principale (39m²)",
-  "titleKitchen": "Cuisine équipée flambant neuve avec : ",
-  "kitchen": [
-   "Réfrégirateur / Congélateur ",
-   "Plaque induction, four, micro-onde, grille-pain",
-   "Machine à café, bouilloire éléctrique, ustensiles de cuisine ",
-   "Mobilier et coin repas extérieur + barbecue"
-  ],
-  "livingroom": "Salon convivial :",
-  "sofa": "Canapé d’angle convertible",
-  "bathroom": "  Salle de bain moderne : ",
-  "equipments": "Douche, WC, lavabo, rangements",
-  "mezzanineT": "MEZZANINE",
-  "mezzanine": "Grand lit (160 x 200cm), idéal pour des nuits reposantes",
-  "laundryroom": "Buanderie",
-  "laundry": "Machine à laver + étendoirs",
-  "terrace": "Terrasse :",
-  "equipmentsT": "Mobilier d’extérieur, coin repas et barbecue pour profiter des beaux jours"
- }
+  {
+    "titlea" : {
+      "fr": "ATOUTS",
+      "en": "STRENGTH"
+    },
+    "capacities": {
+      "fr": "Capacités : 4 à 5 personnes",
+      "en": "Capacity: 4 to 5 people"
+    },
+    "title": {
+      "fr": "Les atouts de cette propriété complétement rénovée",
+      "en": "The advantages of this completely renovated property"
+    },
+    "atouts": [
+      {
+        "fr": "Piscine privative : 10m x 4m, entièrement clôturée avec des murs en pierres",
+        "en": "Private swimming pool: 10m x 4m, fully enclosed with stone walls"
+      },
+      {
+        "fr": "Dépendances charmantes et espace extérieur soigné pour se détendre",
+        "en": "Charming outbuildings and well-kept outdoor space for relaxing"
+      },
+      {
+        "fr": "Accés direct à des randonnées au départ du gîte",
+        "en": "Direct access to hikes from the lodge"
+      },
+      {
+        "fr": "Une salle de sport aménagé sous une vôute en pierres, avec un tapis de course",
+        "en": "A gym set up under a stone vault, with a treadmill"
+      }
+    ]
+  },
+  {
+    "title": {
+      "fr": "DESCRIPTION",
+      "en": "DESCRIPTION"
+    },
+    "mainroom": {
+      "fr": "Grande pièce principale (39m²)",
+      "en": "Large main room (39 square meters)"
+    },
+    "titleKitchen": {
+      "fr": "Cuisine équipée flambant neuve avec : ",
+      "en": "Brand new fitted kitchen with:"
+    },
+    "kitchen": [
+      {
+        "fr": "Réfrégirateur / Congélateur ",
+        "en": "Refrigerator / Freezer"
+      },
+      {
+        "fr": "Plaque induction, four, micro-onde, grille-pain",
+        "en": "Induction hob, oven, microwave, toaster"
+      },
+      {
+        "fr": "Machine à café, bouilloire éléctrique, ustensiles de cuisine",
+        "en": "Coffee machine, electric kettle, kitchen utensils"
+      },
+      {
+        "fr": "Mobilier et coin repas extérieur + barbecue",
+        "en": "Outdoor furniture and dining area + barbecue"
+      }
+    ],
+    "livingroom": {
+      "fr": "Salon convivial :",
+      "en": "Friendly lounge :"
+    },
+    "sofa": {
+      "fr": "Canapé d’angle convertible",
+      "en": "Convertible corner sofa"
+    },
+    "bathroom": {
+      "fr": "Salle de bain moderne : ",
+      "en": "Modern bathroom :"
+    },
+    "equipments": {
+      "fr": "Douche, WC, lavabo, rangements",
+      "en": "Shower, toilet, sink, storage"
+    },
+    "mezzanineT": {
+      "fr": "MEZZANINE",
+      "en": "MZZANINE"
+    },
+    "mezzanine": {
+      "fr": "Grand lit (160 x 200cm), idéal pour des nuits reposantes",
+      "en": "Large bed (160 x 200cm), ideal for restful nights"
+    },
+    "laundryroom": {
+      "fr": "Buanderie",
+      "en": "Laundry room"
+    },
+    "laundry": {
+      "fr": "Machine à laver + étendoirs",
+      "en": "Washing machine + clothes dryers"
+    },
+    "terrace": {
+      "fr": "Terrasse :",
+      "en": "Terrace : "
+    },
+    "equipmentsT": {
+      "fr": "Mobilier d’extérieur, coin repas et barbecue pour profiter des beaux jours",
+      "en": "Outdoor furniture, dining area and barbecue to enjoy the beautiful days"
+    }
+  }
 ]

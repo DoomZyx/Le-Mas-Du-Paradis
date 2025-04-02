@@ -2,22 +2,26 @@ import { useState } from "react";
 
 import Collapse from "../../Collapse/collapse";
 import location from "../../../data/LocationDetails/location.json";
+
+import { useTranslation } from "react-i18next";
+
 function Atouts() {
   const [showStrength, setShowStrength] = useState(false);
+  const { i18n } = useTranslation();
 
   const strength = location[0];
 
   return (
     <Collapse
       className="atouts-section"
-      title="LES ATOUTS"
+      title={strength.titlea[i18n.language]}
       content={
         <>
-          <p>{strength.capacities}</p>
-          <h3 className="title">{strength.title}</h3>
+          <p>{strength.capacities[i18n.language]}</p>
+          <h3 className="title">{strength.title[i18n.language]}</h3>
           <ul>
-            {strength.atouts.map((atouts, index) => (
-              <li key={index}>{atouts}</li>
+            {strength.atouts.map((atout, index) => (
+              <li key={index}>{atout[i18n.language]}</li>
             ))}
           </ul>
         </>

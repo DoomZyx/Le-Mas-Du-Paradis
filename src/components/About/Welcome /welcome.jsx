@@ -1,18 +1,18 @@
 import "./_welcome.scss";
+import { useTranslation } from "react-i18next";
 
 import nature3 from "../../../images/nature3.webp";
 
 function Welcome() {
+  const { t } = useTranslation();
   return (
     <>
       <div className="background-4">
         <img src={nature3} alt="" />
         <div className="layout-welcome">
-          <h2>BIENVENUE CHEZ VOUS</h2>
-          <h3>
-            Dans un mas où tradition et modernité se rencontrent <br /> <br />
-            Pour créer une expérience inoubliable
-          </h3>
+          <h2>{t("wishtitle")}</h2>
+          <h3>{t("wc2")}</h3>
+          <h3>{t("wc3")}</h3>
         </div>
       </div>
     </>

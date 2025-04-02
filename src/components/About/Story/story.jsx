@@ -1,21 +1,18 @@
 import "./_story.scss";
 
+import { useTranslation } from "react-i18next";
+
 function Story() {
+  const { t } = useTranslation();
+
   return (
     <>
       <div className="layout-story">
-        <h2>LE GITE, UN LIEU CHARGEE D'HISTOIRE</h2>
-        <h3>
-          Saviez-vous que l’un des bâtiments principaux du mas était une
-          autrefois une magnagnerie ? 🤔
-          <br /> <br />
-          Une magnagnerie est un atelier où l’on élevait des vers à soie 🐛
-          <br />
-          une activité artisanale qui faisait vivre les villages d’antan.
-          <br /> <br />
-          Ce bâtiment, témoin de cette époque, a été entiérement repensé tout en
-          respectant son âme et son caractère original
-        </h3>
+        <h2>{t("titlestory")}</h2> <br /> <br />
+        <h3>{t("story1")} </h3> <br /> <br />
+        <h3>{t("story2")}</h3> <br />
+        <h3>{t("story3")}</h3> <br /> <br />
+        <h3>{t("story4")}</h3>
       </div>
     </>
   );

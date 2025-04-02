@@ -1,17 +1,17 @@
 import "./_index.scss";
+import { useTranslation } from "react-i18next";
 
 function Comfort() {
+  const { t } = useTranslation();
   return (
     <>
       <div className="comf-layout">
-        <h2>CONFORT ET MODERNITE 🛋️</h2>
+        <h2>{t("comftitle")}</h2>
         <p>
-          Nous avons séléctionné chaque meuble et chaque élément de décoration
-          avec soin 🪑
+          {t("ct1")}
           <br /> <br />
-          Tout a été acheté neuf, pour offrir un cadre chaleureux et morderne,
-          tout en respectant l’ésthétique authentique de la pierre
         </p>
+        <p>{t("ct2")}</p>
       </div>
     </>
   );

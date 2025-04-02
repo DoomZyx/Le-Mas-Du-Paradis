@@ -1,0 +1,84 @@
+{
+"accueil": "ACCUEIL",
+"location": "LOCATION",
+"about": "A PROPOS",
+"contact": "CONTACT",
+"conf": "Politique de confidentialité",
+"mention": "Mentions légales",
+
+"footertitle": "LE MAS DU PARADIS BLEU",
+"Politique&mention": "POLITIQUE DE CONFIDENTIALITE ET MENTIONS LEGALES",
+
+ "fronttitle1": "VIVEZ L’AUTHENTICITÉ",
+ "fronttitle2": "LOUEZ VOTRE HAVRE DE PAIX EN PIERRES",
+
+ "citation1": "“Le chant des oiseaux",
+ "citation2": "Une mélodie de liberté",
+ "citation3": "Et de sérénité”",
+
+ "titleavis": "RECOMMANDATIONS",
+
+ "loch1": "UNE DESTINATION RÊVÉE",
+ "loch2": "POUR SE RESSOURCER 🌳",
+ "xt1": "Le cadre agricole, entre vignes et forêt méditerranéenne, offre une tranquillité unique. Ici, le temps semble suspendu, laissant place au chant des cigales et au parfum enivrant de la lavande. C’est un véritable havre de paix, idéal pour se ressourcer loin du tumulte urbain. 🌿",
+ "xt1-2": "Parfait pour des vacances au calme, avec tout le confort moderne. Profitez d’un séjour alliant nature et sérénité, tout en bénéficiant des équipements essentiels pour un confort optimal. Que vous souhaitiez vous détendre au bord d’une terrasse ombragée, partir en randonnée dans les paysages environnants, ou simplement savourer un bon vin local, ce lieu est une invitation au bien-être.",
+ "localisation": "LOCALISATION",
+ "xt2": "Situé dans un charmant village calme et authentique, au sud de l’Ardèche proche du Gard.",
+ "xt3": " Entre Chassezac et la Cèze, au coeur de paysages mêlant oliviers, vignes, chênes, truffiers, lavande, et garrigue.",
+
+ "titleheadabout": "A PROPOS DE NOTRE MAS EN PIERRE",
+
+ "tr1": "Bienvenue dans notre mas en pierres, un lieu chargé d’histoire et transformé avec passion pour devenir un véritable havre de paix 🌿.",
+ "tr2": "Nichée au cœur d’un cadre authentique et préservé, cette demeure allie le charme rustique des anciennes bâtisses à tout le confort moderne. Chaque pierre raconte une histoire, chaque espace a été pensé pour offrir sérénité et bien-être.",
+ "tr3": "Laissez-vous bercer par le chant des cigales, savourez l’ombre bienfaisante des oliviers et profitez d’un panorama exceptionnel sur la nature environnante.",
+ "tr4": "Ici, le temps ralentit, invitant à la détente, à la découverte et aux moments de partage inoubliables.",
+ "tr5": "Que ce soit pour une escapade romantique, un séjour en famille ou une pause ressourçante, notre mas vous promet une expérience unique, entre authenticité et douceur de vivre.",
+
+ "titlestory": ">LE GITE, UN LIEU CHARGEE D'HISTOIRE",
+
+ "story1": "Saviez-vous que l’un des bâtiments principaux du mas était une autrefois une magnagnerie ? 🤔",
+ "story2": "Une magnagnerie est un atelier où l’on élevait des vers à soie 🐛",
+ "story3": "une activité artisanale qui faisait vivre les villages d’antan.",
+ "story4": "Ce bâtiment, témoin de cette époque, a été entiérement repensé tout en respectant son âme et son caractère original",
+
+
+ "serenitytitle": "UN CADRE DE SERENITE ABSOLUE 🌸 ",
+ "st1": "Ce mas est bien plus qu’un simple lieu de séjour : c’est le fruit d’un rêve réalisé avec passion ❤️",
+ "st2": "Situé dans le village paisible de Saint André de Cruzières et entouré de nature",
+ "st3": "Il offre un climat de sérénité incomparable",
+ "st4": "Ici le temps semble s’arrêter 🌅",
+ "st5": "Les seules bruits que vous entendez sont ceux des oiseaux qui chantent et de la nature qui vous entoure",
+
+ "renotitle": "UNE RENOVATION MINUTIEUSE 🔨",
+ "rt1": "Tout a été repensé, refait et moderniser ✨",
+ "rt2": "La toiture à été entiérement refaite à neuf",
+ "rt3": "Une poutre d’origine, provenant de l’ancienne charpente, a été conservé et sublimée 🌟",
+ "rt4": "Vous pouvez l”admirer depuis la mezzanine, un clin d’oeil à l’histoire du bâtiment",
+ "rt5": "Chaque détail, du sol au plafond, a été conçu avec amour pour les matériaux nobles et une attention particulière au confort",
+
+ "comftitle": "CONFORT ET MODERNITE 🛋️",
+ "ct1": "Nous avons séléctionné chaque meuble et chaque élément de décoration avec soin 🪑",
+ "ct2": "Tout a été acheté neuf, pour offrir un cadre chaleureux et morderne, tout en respectant l’ésthétique authentique de la pierre",
+
+ "wishtitle": "NOTRE SOUHAIT 🪄",
+ "wt1": "Nous espérons que vous ressentirez tout l’amour et l’attachement qui ont donné vie à ce projet",
+ "wt2": "Que ce mas devienne un lieu de repos, de ressourcement et de moments précieux en famille ou entre amis",
+ "welcometitle": "BIENVENUE CHEZ VOUS",
+ "wc2": "Dans un mas où tradition et modernité se rencontrent",
+ "wc3": "Pour créer une expérience inoubliable",
+
+ "headercontact": "N’attendez plus, réservez votre séjour !",
+
+ "contacttitle": "Contactez-nous 📩",
+ "c1": "N'hésitez pas à nous contacter par mail our par téléphone pour tout renseignement ou pour réserver",
+
+ "placeholder1": "Nom",
+ "placeholder2": "Prénom",
+ "placeholder3": "E-mail",
+ "placeholder4": "Téléphone",
+ "placeholder5": "Votre message",
+ "sendbutt": "Envoyer",
+
+ "comfirmation": "Votre message a bien été envoyé à l'hôte !"
+
+}
