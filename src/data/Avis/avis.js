@@ -24,7 +24,7 @@ const commentaires = [
     {
       firstL: "J",
       nom: "Josselin",
-      commentaire: { fr: "Exceptionnel", en: "exceptional" },
+      commentaire: { fr: "Exceptionnel", en: "Exceptional" },
       location: {
         fr: "France",
         en: " France"

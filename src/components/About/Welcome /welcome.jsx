@@ -10,7 +10,7 @@ function Welcome() {
       <div className="background-4">
         <img src={nature3} alt="" />
         <div className="layout-welcome">
-          <h2>{t("wishtitle")}</h2>
+          <h2>{t("welcometitle")}</h2>
           <h3>{t("wc2")}</h3>
           <h3>{t("wc3")}</h3>
         </div>
